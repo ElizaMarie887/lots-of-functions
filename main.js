@@ -136,3 +136,4 @@ function everyDivisible (n){
 }
 
 everyDivisible(7)
+everyDivisible(10)
