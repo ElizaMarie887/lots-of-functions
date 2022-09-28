@@ -128,12 +128,14 @@ if( number % n ===0){
 */
 function everyDivisible (n){
 
-    for(let number = 1; number <= 100; number++){
-        if(number % n === 0){
-            console.log(number);
+    if(n < 10){
+
+        for(let number = 1; number <= 100; number++){
+            if(number % n === 0){
+                console.log(number);
         }
     }
 }
-
+}
 everyDivisible(7)
-everyDivisible(10)
+everyDivisible(9)
